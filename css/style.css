@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,100&display=swap');
+
+* {
+  font-family: roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+
+}
+
+
+
+.header-container {
+  width: 1440px;
+  background: #1CD1B0;
+  line-height: 35px;
+  height: 38px;
+
+}
+
+.aviso {
+  font-style: normal;
+  margin-left: 27px;
+  font-weight: 400;
+  font-size: 15px;
+  color: #000000;
+  font-family: 'Roboto';
+}
+
+.container-hero {
+  width: 1440px;
+  height: 101px;
+  background: #00669F;
+  box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+  line-height: 88px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+
+}
+
+.hero {
+
+  margin-left: 27px;
+
+}
+
+
+.box {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #F3F3F3;
+  margin-left: 210px;
+
+}
+
+.container {
+  background-color: #edeccf;
+
+}
+
+.box1 {
+  background: url("../img/guarida.png");
+  position: absolute;
+  width: 300px;
+  height: 193px;
+  left: 32px;
+  top: 293px;
+  border-radius: 16px 16px 0px 0px;
+
+}
+
+.box2 {
+  position: absolute;
+  width: 300px;
+  height: 336px;
+  left: 32px;
+  top: 485px;
+  background-color: #F3F3F3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.box3 {
+  position: absolute;
+  width: 267px;
+  height: 115px;
+  left: 48px;
+  top: 604px;
+}
+
+.box .batman {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 17px;
+  color: #333333;
+
+}
+
+.box4 {
+  background-image: url("../img/liga-justicia-batman-kO4H--1024x512@abc\ 1.png");
+  position: absolute;
+  width: 120px;
+  height: 118px;
+  left: 122px;
+  top: 421px;
+  border-radius: 90%;
+  border-color: transparent;
+
+}
+
+.box5 {
+  position: absolute;
+  width: 122px;
+  height: 35px;
+  left: 121px;
+  top: 559px;
+}
+
+.box .bat2 {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35.16px;
+  color: #333333;
+  font-style: normal;
+}
+
+.box6 {
+  position: absolute;
+  width: 128.78px;
+  height: 48.52px;
+  left: 117px;
+  top: 754px;
+  background: #00669F;
+}
+
+.box .ver {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #F3F3F3;
+  margin-top: 13px;
+
+}
+
+.box7 {
+  position: absolute;
+  background: url("../img/Vector.png");
+  width: 35px;
+  height: 40.25px;
+  top: 1.88px;
+  background-repeat: no-repeat;
+  margin-top: 305px;
+  left: 46px;
+  border-color: transparent;
+
+}
+
+
+
+/* harley */
+
+.boxh {
+  background: url("../img/ex.png");
+  position: absolute;
+  width: 300px;
+  height: 193px;
+  left: 362px;
+  top: 293px;
+  border-radius: 16px 16px 0px 0px;
+}
+
+.boxh1 {
+  position: absolute;
+  width: 300px;
+  height: 336px;
+  left: 362px;
+  top: 485px;
+  background-color: #F3F3F3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.boxh2 {
+  position: absolute;
+  width: 267px;
+  height: 113px;
+  left: 378px;
+  top: 604px;
+}
+
+.box .harley {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 17px;
+  color: #333333;
+
+}
+
+
+.boxh3 {
+  background-image: url("../img/liga-justicia-batman-kO4H--1024x512@abc\ 1\ \(1\).png");
+  position: absolute;
+  width: 120px;
+  height: 118px;
+  left: 451px;
+  top: 421px;
+  border-radius: 90%;
+  border-color: transparent;
+
+}
+
+.boxh4 {
+  position: absolute;
+  width: 171px;
+  ;
+  height: 35px;
+  left: 427px;
+  top: 559px;
+
+}
+
+.box .har {
+  font-family: "Roboto";
+  font-weight: 400;
+  line-height: 35px;
+  color: #000000;
+  font-style: normal;
+  text-align: center;
+  font-style: normal;
+  display: block;
+  font-size: 1.7em;
+}
+
+.boxh5 {
+  position: absolute;
+  width: 128.78px;
+  height: 48.52px;
+  left: 447px;
+  top: 754px;
+  background: #00669F;
+}
+
+.box .verm {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #F3F3F3;
+  margin-top: 13px;
+}
+
+.boxh6 {
+  position: absolute;
+  background: url("../img/Vector.png");
+  width: 35px;
+  height: 40.25px;
+  top: 1.88px;
+  background-repeat: no-repeat;
+  margin-top: 305px;
+  left: 375px;
+  border-color: transparent;
+}
+
+/* batman2 */
+
+.boxb1 {
+  background: url("../img/guarida.png");
+  position: absolute;
+  width: 300px;
+  height: 193px;
+  left: 692px;
+  top: 293px;
+  border-radius: 16px 16px 0px 0px;
+}
+
+.boxb2 {
+  position: absolute;
+  width: 300px;
+  height: 336px;
+  left: 692px;
+  top: 485px;
+  background-color: #F3F3F3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.boxb3 {
+  position: absolute;
+  width: 267px;
+  height: 113px;
+  left: 708px;
+  top: 604px;
+}
+
+.box .batmann {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 17px;
+  color: #333333;
+
+}
+
+
+.boxb4 {
+  background-image: url("../img/liga-justicia-batman-kO4H--1024x512@abc\ 1.png");
+  position: absolute;
+  width: 120px;
+  height: 118px;
+  left: 781px;
+  top: 421px;
+  border-radius: 90%;
+  border-color: transparent;
+
+}
+
+.boxb5 {
+  position: absolute;
+  width: 171px;
+  ;
+  height: 35px;
+  left: 781px;
+  top: 559px;
+}
+
+.box .bat2 {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+  color: #000000;
+  font-style: normal;
+
+}
+
+.boxb6 {
+  position: absolute;
+  width: 128.78px;
+  height: 48.52px;
+  left: 777px;
+  top: 754px;
+  background: #00669F;
+}
+
+.box .vermas {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #F3F3F3;
+  margin-top: 13px;
+}
+
+.boxb7 {
+  position: absolute;
+  background: url("../img/Vector.png");
+  width: 35px;
+  height: 40.25px;
+  top: 1.88px;
+  background-repeat: no-repeat;
+  margin-top: 305px;
+  left: 707px;
+  border-color: transparent;
+}
+
+.footer-page {
+  width: 1440px;
+  height: 51px;
+  margin-top: 840px;
+  background: #00669F;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.footer-p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 46px;
+  color: #FFF9F9;
+  font-family: 'Roboto';
+  margin-left: 27px;
+  font-style: normal;
+
+}
